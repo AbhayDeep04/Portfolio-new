@@ -1,16 +1,14 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import "./style.css";
-import "./App.css";
 import "react-vertical-timeline-component/style.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Preloader from "./Preloader";
 import MyNav from "./components/navbar/MyNav";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/home_page/HomePage";
 import Resume from "./pages/resume_page/ResumePage";
 import ProjectPage from "./pages/project_page/ProjectPage";
-import { Route, Routes } from "react-router-dom";
 import Footer from "./components/footer/Footer";
 import About from "./components/aboutme/about/About";
 import Ranking from "./components/aboutme/ranking/Ranking";
@@ -22,8 +20,9 @@ import TechnicalSkill from "./components/aboutme/skills/TechnicalSkill";
 import TechnicalJourney from "./components/aboutme/journey/TechnicalJourney";
 import ProjectJourney from "./components/aboutme/journey/ProjectJourney";
 import SocialMedia from "./components/aboutme/social_media/SocialMedia";
-// import Zoom from 'react-reveal/Zoom';
 import Toolkit from "./components/aboutme/skills/Toolkit";
+
+const basename = process.env.REACT_APP_BASENAME || "";
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -43,7 +42,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename={basename}>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <MyNav />
@@ -54,22 +53,15 @@ function App() {
             <Route path="technicalskill" element={<TechnicalSkill />} />
             <Route path="technicaljourney" element={<TechnicalJourney />} />
             <Route path="projectjourney" element={<ProjectJourney />} />
-            <Route
-              path="educationjourney"
-              element={<EducationJourney />}
-            ></Route>
-            <Route
-              path="experiencejourney"
-              element={<ExperienceJourney />}
-            ></Route>
-            <Route path="ranking" element={<Ranking />}></Route>
-            <Route path="socialmedia" element={<SocialMedia />}></Route>
-            <Route path="toolkit" element={<Toolkit />}></Route>
+            <Route path="educationjourney" element={<EducationJourney />} />
+            <Route path="experiencejourney" element={<ExperienceJourney />} />
+            <Route path="ranking" element={<Ranking />} />
+            <Route path="socialmedia" element={<SocialMedia />} />
+            <Route path="toolkit" element={<Toolkit />} />
           </Route>
           <Route path="/projectspage" element={<ProjectPage />} />
           <Route path="/certificatepage" element={<CertificatePage />} />
           <Route path="/resume" element={<Resume />} />
-
         </Routes>
         <Footer />
       </div>
