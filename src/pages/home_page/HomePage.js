@@ -87,11 +87,11 @@ export default function Home() {
               <div className="img-home-main">
                 <Tilt>
                   <Fade cascade>
-                    <img
-                      src="./profilepic.jpg"
-                      alt="home pic"
-                      className="img-fluid"
-                    />
+                  <img
+                    src={process.env.PUBLIC_URL + "/profilepic.jpg"}
+                    alt="home pic"
+                    className="img-fluid"
+                  />  
                   </Fade>
                 </Tilt>
               </div>
