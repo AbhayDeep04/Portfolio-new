@@ -74,14 +74,14 @@ html {
 /* --------- */
 .sticky {
   background-color: #212038d8 !important;
-  transition: all 0.3s ease-out 0s !important;
+  transition: all 0.1s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
 
 .navbar {
   position: fixed !important;
-  transition: all 0.3s ease-out 0s !important;
+  transition: all 0.1s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
 }
@@ -115,8 +115,8 @@ html {
 
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
-  transition: transform 0.35s ease-in-out !important;
-  transition: transform 0.35s ease-in-out !important;
+  transition: transform 0.1s ease-in-out !important;
+  transition: transform 0.1s ease-in-out !important;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
@@ -211,7 +211,7 @@ html {
 
 .navbar-nav .nav-item a {
   font-weight: 400;
-  transition: all 0.3s ease-out 0s;
+  transition: all 0.1s ease-out 0s;
   position: relative;
   z-index: 1;
 }
@@ -227,7 +227,7 @@ html {
   bottom: 1px;
   left: 0;
   z-index: -1;
-  transition: all 0.3s ease-out 0s;
+  transition: all 0.1s ease-out 0s;
 }
 
 .navbar-nav .nav-item a:hover::after {
@@ -438,7 +438,7 @@ html {
   line-height: 1.25em !important;
   background: rgba(251, 217, 173, 0.972) !important;
   border-radius: 20% !important;
-  transition: 0.5s !important;
+  transition: 0.2s !important;
 }
 
 .home-social-icons::before {
@@ -554,7 +554,7 @@ html {
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
-  transition: all 0.5s ease 0s !important;
+  transition: all 0.2s ease 0s !important;
   height: 100% !important;
 }
 .project-card-view:hover {
@@ -575,7 +575,7 @@ html {
   background-color: transparent !important;
   box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
   color: white !important;
-  transition: all 0.5s ease 0s !important;
+  transition: all 0.2s ease 0s !important;
   height: 100% !important;
 }
 
@@ -653,7 +653,7 @@ html {
   display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
+  transition: all 0.2s ease 0s !important;
 }
 
 
@@ -790,7 +790,7 @@ html {
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
-  transition: 0.3s ease !important;
+  transition: 0.1s ease !important;
 }
 
 .like-btn:hover {
@@ -802,7 +802,7 @@ html {
 .animate-like {
   animation-name: likeAnimation;
   animation-fill-mode: forwards;
-  animation-duration: 0.85s;
+  animation-duration: 0.1s;
 }
 @keyframes likeAnimation {
   0% {
@@ -856,7 +856,7 @@ html {
   padding: 0.5rem 1rem;
   color: #fbd9ad !important;
   text-decoration: none;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition: color .1s ease-in-out,background-color .1s ease-in-out,border-color .1s ease-in-out;
 }
 
 .Navitem .nav-tabs .nav-link:focus,.Navitem .nav-tabs .nav-link:hover {
@@ -886,7 +886,7 @@ html {
     text-align: center;
     white-space: nowrap;
     background-color: #fe3e57;
-    transition: width .6s ease;
+    transition: width .2s ease;
     width: 55%;
 }
 #pm{
@@ -898,7 +898,7 @@ html {
     text-align: center;
     white-space: nowrap;
     background-color: #54faae;
-    transition: width .6s ease;
+    transition: width .2s ease;
     width: 55%;
 }
 #ps{
@@ -910,7 +910,7 @@ html {
     text-align: center;
     white-space: nowrap;
     background-color: #ff8c2f;
-    transition: width .6s ease;
+    transition: width .2s ease;
     width: 55%;
 }
 #aa{
@@ -922,7 +922,7 @@ html {
     text-align: center;
     white-space: nowrap;
     background-color: #f1f965;
-    transition: width .6s ease;
+    transition: width .2s ease;
     width: 55%;
 }
 #org{
@@ -934,7 +934,7 @@ html {
     text-align: center;
     white-space: nowrap;
     background-color: #ff0173;
-    transition: width .6s ease;
+    transition: width .2s ease;
     width: 55%;
 }
 #cr{
@@ -946,7 +946,7 @@ html {
     text-align: center;
     white-space: nowrap;
     background-color: #39c4ff;
-    transition: width .6s ease;
+    transition: width .2s ease;
     width: 55%;
 }
 #react{
@@ -958,7 +958,7 @@ html {
     text-align: center;
     white-space: nowrap;
     background-color: #41f2ff;
-    transition: width .6s ease;
+    transition: width .2s ease;
     width: 55%;
 }
 
@@ -1000,7 +1000,7 @@ html {
   line-height: 1.5em !important;
   background: rgba(251, 217, 173, 0.972) !important;
   border-radius: 50% !important;
-  transition: 0.5s !important;
+  transition: 0.1s !important;
 }
 
 .homesocialicons::before {
@@ -1012,7 +1012,7 @@ html {
   height: 100%;
   border-radius: 50%;
   background: #68187a;
-  transition: 0.5s;
+  transition: 0.2s;
   transform: scale(0.9);
   z-index: -1;
 }
@@ -1050,11 +1050,11 @@ html {
   box-shadow: 2px 2px 10px #700c86;
   margin-bottom: 30px;
   flex: 0 0 30%;
-  transition: all 0.4s ease 0s !important;
+  transition: all 0.1s ease 0s !important;
 }
 .cert-card:hover {
   transform: scale(1.05) !important;
-  transition: all 0.9s ease 0s !important;
+  transition: all 0.1s ease 0s !important;
 }
 
 .cert-header {
@@ -1105,9 +1105,9 @@ html {
   bottom: 0;
   right: 0;
   opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.1s ease-in-out 0s;
+  -moz-transition: all 0.1s ease-in-out 0s;
+  transition: all 0.1s ease-in-out 0s;
 }
 
 .content:hover .content-overlay {
@@ -1126,9 +1126,9 @@ html {
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.1s ease-in-out 0s;
+  -moz-transition: all 0.1s ease-in-out 0s;
+  transition: all 0.1s ease-in-out 0s;
 }
 
 .content:hover .content-details {
@@ -1259,7 +1259,7 @@ html {
 .projectContent > img {
   width: 100%;
   height: 60%;
-  transition: opacity 0.7s 0.3s;
+  transition: opacity 0.2s 0.1s;
 }
 
 .singleProject:hover img{
@@ -1276,7 +1276,7 @@ html {
 .project--showcaseBtn > a {
   cursor: pointer;
   text-decoration: none;
-  transition: transform 0.5s 0.3s;
+  transition: transform 0.2s 0.1s;
 }
 
 .singleProject:hover .project--showcaseBtn a:nth-child(2) {
@@ -1319,7 +1319,7 @@ html {
   flex-direction: column;
   border-radius: 10px 0 0 10px;
   transform: translateX(100%);
-  transition: transform 0.5s 0.3s;
+  transition: transform 0.3s 0.1s;
   padding: 0.825rem;
 }
 
@@ -1363,7 +1363,7 @@ html {
   background-color: #150d23;
   color: #fbd9ad;
   font-weight: 500;
-  transition: border 0.2s ease-in-out;
+  transition: border 0.1s ease-in-out;
 }
 
 .form-input {
@@ -1450,7 +1450,7 @@ html {
 .submitBtn{
   background-color: #fbd9ad;
   color: #742586;
-  transition: 250ms ease-in-out;
+  transition: 100ms ease-in-out;
   font-weight: 700;
 }
 
@@ -1489,7 +1489,7 @@ html {
   align-items: center;
   justify-content: center;
   font-size: 23px;
-  transition: 250ms ease-in-out;
+  transition: 100ms ease-in-out;
   flex-shrink: 0;
 }
 .detailsIcon:hover{
@@ -1587,7 +1587,7 @@ html {
 .projectPageContent > img {
   width: 100%;
   height: 60%;
-  transition: opacity 0.7s 0.3s;
+  transition: opacity 0.2s 0.3s;
 }
 
 .singleProjectPage:hover img{
@@ -1604,7 +1604,7 @@ html {
 .project--showcaseBtn > a {
   cursor: pointer;
   text-decoration: none;
-  transition: transform 0.5s 0.3s;
+  transition: transform 0.2s 0.3s;
 }
 
 .singleProjectPage:hover .project--showcaseBtn a:nth-child(2) {
@@ -1648,7 +1648,7 @@ html {
   flex-direction: column;
   border-radius: 10px 0 0 10px;
   transform: translateX(100%);
-  transition: transform 0.5s 0.3s;
+  transition: transform 0.2s 0.3s;
   padding: 0.825rem;
 }
 
@@ -1696,7 +1696,7 @@ html {
     flex-direction: column;
     border-radius: 10px 0 0 10px;
     transform: translateX(100%);
-    transition: transform 0.5s 0.3s;
+    transition: transform 0.2s 0.3s;
     padding: 0.825rem;
   }
   .singleProjectPage:hover .project--showcaseBtn a:nth-child(2) {
@@ -1718,14 +1718,15 @@ html {
     flex-direction: column;
     border-radius: 10px 0 0 10px;
     transform: translateX(100%);
-    transition: transform 0.5s 0.3s;
+    transition: transform 0.2s 0.3s;
     padding: 0.825rem;
   }
   .singleProjectPage:hover .project--showcaseBtn a:nth-child(2) {
     transform: translateX(-128px) scale(1.1) !important;
   }
   
-}
+} 
 #resume{
   height:800px;
 }
+

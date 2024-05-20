@@ -13,7 +13,8 @@ function Typing() {
                 ],
                 autoStart: true,
                 loop: true,
-                deleteSpeed: 50,
+                deleteSpeed: 20,
+                delay: 25,
             }}
         />
     );

@@ -10,7 +10,7 @@ export default function AboutmeContainer() {
             <Container>
                 <Row>
                     <Col md={12} className="home-about-description d-flex justify-content-start">
-                    <Zoom left cascade>
+                    <Zoom left cascade duration={400}>
                         <h1 className='aboutme-heading'>
                             About me
                         </h1>

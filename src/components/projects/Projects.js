@@ -20,12 +20,12 @@ export default function Projects() {
               md={12}
               className="certificate-description d-flex justify-content-start"
             >
-              <Zoom left cascade>
+              <Zoom left cascade duration={400}>
                 <h1 className="aboutme-heading">Projects</h1>
               </Zoom>
             </Col>
             <Col md={3}>
-              <Fade bottom>
+              <Fade bottom duration={400}>
                 <div
                   key={1}
                   className="singleProject"
@@ -88,7 +88,7 @@ export default function Projects() {
               </Fade>
             </Col>
             <Col md={3}>
-              <Fade bottom>
+              <Fade bottom duration={400}>
                 <div
                   key={1}
                   className="singleProject"
@@ -150,7 +150,7 @@ export default function Projects() {
               </Fade>
             </Col>
             <Col md={3}>
-              <Fade bottom>
+              <Fade bottom duration={400}>
                 <div
                   key={1}
                   className="singleProject"
@@ -212,7 +212,7 @@ export default function Projects() {
               </Fade>
             </Col>
             <Col md={3}>
-              <Fade bottom>
+              <Fade bottom duration={400}>
                 <div
                   key={1}
                   className="singleProject"

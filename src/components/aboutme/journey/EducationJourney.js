@@ -27,7 +27,7 @@ function EducationJourney() {
       </div>
       <div className="mt-5">
         <Flip top cascade>
-          <h1>Qualification Journey</h1>
+          <h1>Educational Journey</h1>
         </Flip>
       </div>
       <VerticalTimeline>
@@ -35,38 +35,36 @@ function EducationJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2004 - 2014"
+          date="2010 - 2020"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
           <h4 className="vertical-timeline-element-title">
-            SECONDARY SCHOOL CERTIFICATE
+            10th Grade Secondary School Certificate
           </h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            BOF High School, Gazipur
+            Indira National School, Pune, India.
           </h4>
           <p>
-            Studied here from Class 1 to 10th as a part of secondary school
-            Certificate and gain GPA 5 in my SSC Examination.
+            My school for 1st through 10th grade. Participated in various Olympiads and won merit in many interschool competitions. Secured 91% in 10th grade.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2014 - 2018"
+          date="2020 - 2022"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
           <h4 className="vertical-timeline-element-title">
-            DIPLOMA IN ENGINEERING
+            12th Grade Higher Secondary Certificate
           </h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Dhaka Polytechnic Institute, Dhaka
+            Glory English Medium School, Pune, India.
           </h4>
           <p>
-            Studied Diploma in Computer Technology from Dhaka Polytechnic
-            institute and gain CGPA 2.98.
+            Studied 12th grade in Science stream with Physics, Chemistry, and Mathematics. Won IAYP award, Secured a 1540 SAT score, 5 in AP Calculus and AP Physics. Taught visually impaired students English during the pandemic. Secured 93% in 12th grade.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -79,11 +77,10 @@ function EducationJourney() {
         >
           <h4 className="vertical-timeline-element-title">GRADUATION</h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Sonargaon University, Dhaka
+            Georgia State University, Atlanta, USA.
           </h4>
           <p>
-            Studied Bachelor of Science degree in Computer Science and
-            Engineering field from Sonargaon University and gain CGPA 3.44.
+            Currently pursuing a Bachelor's in Computer Science with a focus on Artificial Intelligence, Web development and IOS development. Member of the Honors College and the first international Presidential Scholar at GSU. 4.0 GPA. Won HackGT X and got selected for Google Cultivate Summit.
           </p>
         </VerticalTimelineElement>
 

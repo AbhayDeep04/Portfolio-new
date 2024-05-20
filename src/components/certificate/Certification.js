@@ -5,6 +5,7 @@ import { Fade } from "react-reveal";
 import ucsc from "../../images/ucsc.png";
 import ufm from "../../images/ufm.png";
 import cbta from "../../images/CBT&A.pdf";
+import nyu from "../../images/nyu.png";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
 
@@ -18,18 +19,18 @@ export default function Certification() {
               md={12}
               className="certificate-description d-flex justify-content-start"
             >
-              <Zoom left cascade>
+              <Zoom left cascade duration={400}>
                 <h1 className="aboutme-heading">Certification</h1>
               </Zoom>
             </Col>
             <Col ms={12} className="mt-3">
               <Row className="g-5">
                 <Col md={4}>
-                  <Fade bottom duration={2000} distance="20px">
+                  <Fade bottom duration={400} distance="20px">
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href="https://www.hackerrank.com/certificates/3573ea1a35bb"
+                          href="https://www.coursera.org/account/accomplishments/verify/7WBBLU5YJQEM?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -55,24 +56,24 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Problem Solving Basic : Programming Fundamentals
+                          The Arduino Platform and C Programming
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - HackerRank
+                          - University of California, Irvine
                         </h3>
                       </div>
                     </div>
                   </Fade>
                 </Col>
                 <Col md={4}>
-                  <Fade bottom duration={2000} distance="20px">
+                  <Fade bottom duration={400} distance="20px">
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href={cbta}
+                          href="https://www.linkedin.com/feed/update/urn:li:activity:7137230480537485314/"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -98,25 +99,24 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Basic Computer Application for Everyone: IT Support
-                          Technician level-1
+                          Honors in Web development
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - Bangladesh Technical Education Board
+                          - Code Path
                         </h3>
                       </div>
                     </div>
                   </Fade>
                 </Col>
                 <Col md={4}>
-                  <Fade bottom duration={2000} distance="20px">
+                  <Fade bottom duration={400} distance="20px">
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href="https://www.hackerrank.com/certificates/af66a6615aad"
+                          href="https://courses.edx.org/certificates/c02d2db8837e4b36b3d752e0596d99a1"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -125,7 +125,7 @@ export default function Certification() {
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ucsc} alt={ucsc} />}
+                            {<img className="logo_img" src={nyu} alt={ucsc} />}
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -142,13 +142,13 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Python Basic for : Programming Fundamentals
+                          Hardware and Operating Systems
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - HackerRank
+                          - New York University
                         </h3>
                       </div>
                     </div>
